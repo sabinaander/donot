@@ -4,10 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        @font-face { font-family: Somatic; src: url('assets/Somatic-Rounded.otf'); } 
-        @font-face { font-family: Roboto-Black; src: url('assets/Roboto-Black.ttf'); } 
-        @font-face { font-family: Roboto-Medium; src: url('assets/Roboto-Medium.ttf'); } 
+        @font-face {
+            font-family: Somatic;
+            src: url('assets/Somatic-Rounded.otf');
+        }
 
+        @font-face {
+            font-family: Roboto-Black;
+            src: url('assets/Roboto-Black.ttf');
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url('assets/Roboto-Medium.ttf');
+        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -19,7 +29,7 @@
 <body>
     <header class="header">
         <img class="logo" src="assets/bluelogo.png">
-        <div >
+        <div>
             <ol class="header-nav">
                 <li><a href="/about">About us</a></li>
                 <p>|</p>
@@ -33,15 +43,19 @@
         <h1>Say no to unhealthy snacks</h1>
     </div>
     <div class="products">
-        <h2>View full range!</h2>
+        <a href="/products">
+            <h2>View full range!</h2>
+        </a>
     </div>
     <div class="special">
-        <h2 class="special-offer-big">
-            20% OFF!
-        </h2>
-        <h2 class="special-offer-small">
-            on first 3-pack monthly subscription
-        </h2>
+        <div class="special-text">
+            <h2 class="special-offer-big">
+                20% OFF!
+            </h2>
+            <h2 class="special-offer-small">
+                on first 3-pack monthly subscription
+            </h2>
+        </div>
         <button class="sign-up-btn">
             Sign up!
         </button>
