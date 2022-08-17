@@ -1,12 +1,33 @@
 *{
     padding: 0px;
     margin: 0px;
+    list-style: none;
+    font-family: Roboto;
 }
 
+@font-face { font-family: Somatic; src: url('assets/Somatic-Rounded.otf'); } 
+@font-face { font-family: Roboto; src: url('assets/Roboto-Black.ttf'); } 
+
+h1, h3{
+    font-family: Somatic;
+}
+
+
 .header{
+    padding: 5px;
+    display: flex;
+    align-items: center;
     max-height: 80px;
+    height: 100%;
     width: 100%;
-    background-color: #FFF46C;
+    background-color: #FFF46C;  
+}
+
+.header-nav{
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo{
@@ -14,9 +35,12 @@
 }
 
 .tagline{
+    background-image: url("assets/lines.png");
+    background-size: cover;
     background-color: #FF579C;
     height: 350px;
 }
+
 
 .products{
     background-color: #06D1FB;
