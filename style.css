@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    max-height: 80px;
+    width: 100%;
+    background-color: #FFF46C;
+}
+
+.logo{
+    height: 50px;
+}
+
+.tagline{
+    background-color: #FF579C;
+    height: 350px;
+}
+
+.products{
+    background-color: #06D1FB;
+    height: 550px;
+}
+
+.special{
+    background-color: #2BB673;
+    height: 450px;
+}
+
+.sign-up-btn{
+    height:40px;
+}
+
+.slideshow{
+    height: 400px;
+}
