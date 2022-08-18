@@ -316,3 +316,87 @@ input {
         height: 3rem;
         cursor: pointer;
 }
+
+/* Tablet */
+@media screen and (min-width: 1024px) {
+    header .header{
+        height: 90px;
+    }
+
+    .logo{
+        height: 100px;
+        margin-left: 5rem;
+    }
+
+    .header-nav{
+        font-size: 28px;
+    }
+
+    .tagline{
+        height: 511px;
+    }
+
+    .tagline h1{
+        padding-left: 4rem;
+        padding-top: 10rem;
+        font-size: 105px;
+    }
+
+    .products{
+        height: 516px;
+        background-size: 140%;
+        background-image: url("/assets/Products-line.png");
+    }
+    .products h2{
+        font-size:90px;
+    }
+
+    .special{
+        background-size: 70%;
+        height: 500px;
+        align-items: center;
+    }
+
+    .special-text{
+        margin-top: 1rem;
+        margin-left: 22rem;
+    }
+
+    .special-offer-big{
+        font-size: 9rem;
+    }
+    .special-offer-small{
+        margin-top: -3rem;
+        font-size: 3.5rem;
+        width: 85%;
+    }
+    .sign-up-btn{
+        width: 40%;
+        padding: 0.4rem;
+        font-size: 3.5rem;
+        border: solid white 6px;
+        border-radius: 50px;
+    }
+
+    .footer-content{
+        flex-direction: row;
+        gap: 8rem;
+    }
+
+    .contact li{
+        font-size: 1.5rem;
+    }
+
+    .products-list{
+        padding: 3rem;
+    }
+    .sign-up-card h2{
+        font-size: 3rem;
+        margin-bottom: -2rem;
+    }
+}
+
+/* Desktop */
+@media screen and (max-width: 1440px) {
+    
+}
