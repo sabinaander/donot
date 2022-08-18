@@ -43,6 +43,8 @@ h1, h3 {
     height: 40px;
     background-color: #FFF46C;
     gap: 6rem;
+    position: sticky;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
 .header-nav {
