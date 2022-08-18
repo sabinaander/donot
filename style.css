@@ -121,7 +121,7 @@ h1, h3 {
     font-size: 3rem;
 }
 
-.sign-up-btn{
+.sign-up-btn {
     background-color: #06D1FB;
     border: none;
     color: white;
@@ -133,7 +133,7 @@ h1, h3 {
     cursor: pointer;
 }
 
-.sign-up-btn a{
+.sign-up-btn a {
     font-family: Somatic;
 }
 
@@ -205,11 +205,9 @@ footer p {
     font-size: 1.3rem;
 }
 
-.sub-page p, h2{
-    padding: 1rem;
-}
 
-.top-picture{
+
+.top-picture {
     height: 200px;
     background-image: url("assets/planning.jpg");
     background-position: center;
@@ -226,32 +224,33 @@ footer p {
     text-align: center;
 }
 
-hr{
-        border-top: 4px solid #bbb;
+hr {
+    border-top: 4px solid #bbb;
 }
 
-.center-text{
+.center-text {
     text-align: center;
+    font-size: 2rem;
 }
 
-.employee-box{
+.employee-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
 }
 
-.employee-pic{
+.employee-pic {
     width: 20%;
     border-radius: 50%;
 }
 
-.map{
+.map {
     min-width: 550px;
     width: 100%;
 }
 
-.all-products{
+.all-products {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -305,83 +304,91 @@ input {
     text-align: center;
 }
 
-.small-image{
+.small-image {
     width: 100px;
     margin-top: -30px;
 }
 
 
-.submit-btn{
-        background-color: #06D1FB;
-        border: none;
-        color: white;
-        font-size: 1.5rem;
-        letter-spacing: 3px;
-        width: 100%;
-        text-align: center;
-        font-family: Somatic;
-        padding: 0.5rem;
-        height: 3rem;
-        cursor: pointer;
+.submit-btn {
+    background-color: #06D1FB;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    width: 100%;
+    text-align: center;
+    font-family: Somatic;
+    padding: 0.5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.padding-text{
+    padding:2rem;
 }
 
 /* Tablet */
 @media screen and (min-width: 1024px) {
-    header .header{
+    header .header {
         height: 90px;
     }
 
-    .logo{
+    .logo {
         height: 100px;
         margin-left: 5rem;
     }
 
-    .header-nav{
+    .header-nav {
         font-size: 28px;
     }
 
-    .tagline{
+    .tagline {
         height: 511px;
     }
 
-    .tagline h1{
+    .tagline h1 {
         padding-left: 4rem;
         padding-top: 10rem;
         font-size: 105px;
     }
-    .all-products-image{
+
+    .all-products-image {
         height: 300px;
     }
 
-    .products{
+    .products {
         height: 516px;
         background-size: 140%;
         background-image: url("/assets/Products-line.png");
     }
-    .products h2{
-        font-size:90px;
+
+    .products h2 {
+        font-size: 90px;
     }
 
-    .special{
+    .special {
         background-size: 70%;
         height: 500px;
         align-items: center;
     }
 
-    .special-text{
+    .special-text {
         margin-top: 1rem;
         margin-left: 22rem;
     }
 
-    .special-offer-big{
+    .special-offer-big {
         font-size: 9rem;
     }
-    .special-offer-small{
+
+    .special-offer-small {
         margin-top: -3rem;
         font-size: 3.5rem;
         width: 85%;
     }
-    .sign-up-btn{
+
+    .sign-up-btn {
         width: 40%;
         padding: 0.4rem;
         font-size: 3.5rem;
@@ -389,82 +396,90 @@ input {
         border-radius: 50px;
     }
 
-    .footer-content{
+    .footer-content {
         flex-direction: row;
         gap: 8rem;
     }
 
-    .contact li{
+    .contact li {
         font-size: 1.5rem;
     }
 
 
-    .products-list{
+    .products-list {
         padding: 3rem;
     }
-    .sign-up-card h2{
+
+    .sign-up-card h2 {
         font-size: 3rem;
         margin-bottom: -2rem;
     }
 
-    .map{
+    .map {
         height: 500px;
         object-fit: cover;
         background-position: center;
+    }
+
+    .sub-page p, h2 {
+        padding: 1rem;
     }
 }
 
 /* Desktop */
 @media screen and (min-width: 1440px) {
-    .header{
+    .header {
         gap: 12rem;
     }
 
-    .logo{
+    .logo {
         margin-left: 10rem;
     }
 
-    .header-nav{
+    .header-nav {
         font-size: 2rem;
     }
 
-    .tagline{
+    .tagline {
         background-image: url("/assets/Tagline-desktop.png");
     }
-    .tagline h1{
+
+    .tagline h1 {
         margin-left: 20rem;
     }
-    .products{
+
+    .products {
         background-size: 100%;
     }
 
-    .products-list{
+    .products-list {
         padding: 10rem;
     }
 
-    .special{
+    .special {
         background-size: 50%;
         height: 550px;
     }
-    .special-text{
+
+    .special-text {
         margin-top: -1rem;
         margin-left: 45rem;
     }
 
-    .sign-up-btn{
+    .sign-up-btn {
         width: 25%;
         margin-top: 6rem;
     }
 
-    .slideshow{
+    .slideshow {
         height: 550px;
     }
 
-    .footer-content{
+    .footer-content {
         gap: 25rem;
     }
 
-    .all-products-image{
+    .all-products-image {
         height: 400px;
     }
 
