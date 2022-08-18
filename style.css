@@ -197,6 +197,7 @@ footer {
 footer p {
     font-size: 1rem;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -248,6 +249,13 @@ hr{
 .map{
     min-width: 550px;
     width: 100%;
+}
+
+.all-products{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #57e29f;
 }
 
 .all-products-image {
@@ -341,6 +349,9 @@ input {
         padding-top: 10rem;
         font-size: 105px;
     }
+    .all-products-image{
+        height: 300px;
+    }
 
     .products{
         height: 516px;
@@ -387,6 +398,7 @@ input {
         font-size: 1.5rem;
     }
 
+
     .products-list{
         padding: 3rem;
     }
@@ -394,9 +406,66 @@ input {
         font-size: 3rem;
         margin-bottom: -2rem;
     }
+
+    .map{
+        height: 500px;
+        object-fit: cover;
+        background-position: center;
+    }
 }
 
 /* Desktop */
-@media screen and (max-width: 1440px) {
-    
+@media screen and (min-width: 1440px) {
+    .header{
+        gap: 12rem;
+    }
+
+    .logo{
+        margin-left: 10rem;
+    }
+
+    .header-nav{
+        font-size: 2rem;
+    }
+
+    .tagline{
+        background-image: url("/assets/Tagline-desktop.png");
+    }
+    .tagline h1{
+        margin-left: 20rem;
+    }
+    .products{
+        background-size: 100%;
+    }
+
+    .products-list{
+        padding: 10rem;
+    }
+
+    .special{
+        background-size: 50%;
+        height: 550px;
+    }
+    .special-text{
+        margin-top: -1rem;
+        margin-left: 45rem;
+    }
+
+    .sign-up-btn{
+        width: 25%;
+        margin-top: 6rem;
+    }
+
+    .slideshow{
+        height: 550px;
+    }
+
+    .footer-content{
+        gap: 25rem;
+    }
+
+    .all-products-image{
+        height: 400px;
+    }
+
 }
