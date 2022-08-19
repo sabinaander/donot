@@ -379,7 +379,7 @@ input {
 
     .special-text {
         margin-top: 1rem;
-        margin-left: 22rem;
+        margin-left: 20rem;
     }
 
     .special-offer-big {
@@ -387,12 +387,13 @@ input {
     }
 
     .special-offer-small {
-        margin-top: -3rem;
+        margin-top: -2rem;
         font-size: 3.5rem;
         width: 85%;
     }
 
     .sign-up-btn {
+        margin-top: 4rem;
         width: 40%;
         padding: 0.4rem;
         font-size: 3.5rem;
@@ -473,7 +474,7 @@ input {
 
     .sign-up-btn {
         width: 25%;
-        margin-top: 6rem;
+        margin-top: 9rem;
     }
 
     .slideshow {
